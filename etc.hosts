@@ -1,13 +1,9 @@
 127.0.0.1 localhost
 #Deployment
-192.168.182.11 deployment
+192.168.2.136 deployment
 #Controller
-192.168.182.21 controller
+192.168.2.133 controller
 #Compute
-192.168.182.31 compute1
-#192.168.182.32 compute2
-#192.168.182.33 compute3
+192.168.2.135 compute1
 #Block
-#192.168.182.41 block1
-#192.168.182.42 block2
-#192.168.182.43 block3
+192.168.2.134 block1
