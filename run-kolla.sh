@@ -40,7 +40,8 @@ ssh openstack@compute1 "sudo bash /home/openstack/compute_setup.sh"
 # Install Ansible and Kolla-Ansible
 
 echo 'run-kolla.sh: Running sudo pip install ansible==2.6.18'
-sudo pip install ansible==2.6.18
+sudo pip install ansible 
+#==2.6.18
 
 if [ $? -ne 0 ]; then
   echo "Cannot install Ansible"
@@ -48,7 +49,8 @@ if [ $? -ne 0 ]; then
 fi
 
 echo 'run-kolla.sh: Running sudo pip install kolla-ansible==6.2.1'
-sudo pip install kolla-ansible #==6.2.1
+sudo pip install kolla-ansible 
+#==6.2.1
 
 if [ $? -ne 0 ]; then
   echo "Cannot install kolla-ansible"
