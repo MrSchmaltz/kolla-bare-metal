@@ -48,7 +48,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo 'run-kolla.sh: Running sudo pip install kolla-ansible==6.2.1'
-sudo pip install kolla-ansible==6.2.1
+sudo pip install kolla-ansible #==6.2.1
 
 if [ $? -ne 0 ]; then
   echo "Cannot install kolla-ansible"
